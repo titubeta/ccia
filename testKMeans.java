@@ -18,14 +18,14 @@ public class testKMeans{
 	public static void main(String[] args) throws Exception {
 		
         //Read input file
-		String targetDir = "//home//shehroz//workspace//Clustering//data//";
-		String inputFile =  targetDir+"wine.arff";
+		String targetDir = "//path//to//directory//for//data//";
+		String inputFile =  targetDir+"iris.arff";
 		String outputFile = inputFile+"-centers.csv";
 		String memFile = inputFile+"-membership.csv";
 		
 		KmeanClustering km1 = new KmeanClustering();
 		//Sets the parameters
-	    km1.setK(3); //Number of clusters in the data
+	    	km1.setK(3); //Number of clusters in the data
 		km1.setITR_MAX(1000); //Max iterations for K-means to converge
 		km1.setNN(1); //for merging clusters, distance of 'q^th' nearest neighbour of a cluster center.
 		//For practical purposes a value of 1 is good. Increasing this value to large number will result in exception.
