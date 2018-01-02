@@ -5,6 +5,7 @@ Cluster Center Initialization Algorithm for K-mean Clustering, Shehroz S. Khan a
 Online available at - https://pdfs.semanticscholar.org/0288/181f90c5f85ba219ebc4beb7c759fd052408.pdf
 
 Author: Shehroz S. Khan
+
 Affiliation: University of Toronto, Canada
 
 *About*: The program generates fixed cluster centers that are written to a separate file. These centers are then used by K-means clustering and the data object membership is written in another file. 
