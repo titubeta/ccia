@@ -55,7 +55,6 @@ Citation
 If you use this program in your research and publish a paper, then please use the following citation
 
 @article{khan2004cluster,
-
   title={Cluster center initialization algorithm for K-means clustering},
   author={Khan, Shehroz S and Ahmad, Amir},
   journal={Pattern recognition letters},
