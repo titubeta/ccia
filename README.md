@@ -1,3 +1,12 @@
+About: This Java package is to perform cluster center initialization (CCIA) for K-means algorithms. The implementation is based on the following paper - 
+
+Cluster Center Initialization Algorithm for K-mean Clustering, Shehroz S. Khan and Amir Ahmad, Pattern Recognition Letters, Volume 25, No. 11, pages 1293-1302, 2004 
+
+Online available at - https://pdfs.semanticscholar.org/0288/181f90c5f85ba219ebc4beb7c759fd052408.pdf
+
+Author: Shehroz S. Khan
+Affiliation: University of Toronto, Canada
+
 This distribution contains two java files:
 
 1. KmeansClustering.java -- This is the main class file to generate initial modes.
@@ -25,7 +34,9 @@ Dependencies
 ------------
 This package is tested using Weka-3-9-2, Apache Commons Math 3.6.1 and Apache Common Lang 3.3.7. The respective jars can be obtained from
 https://www.cs.waikato.ac.nz/ml/weka/downloading.html
+
 http://commons.apache.org/proper/commons-math/download_math.cgi
+
 http://commons.apache.org/proper/commons-lang/download_lang.cgi
 
 		
