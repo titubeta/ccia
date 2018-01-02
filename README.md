@@ -38,7 +38,8 @@ package initKmean;
 
 Dependencies
 ------------
-This package is tested using Weka-3-9-2, Apache Commons Math 3.6.1 and Apache Common Lang 3.3.7. The respective jars can be obtained from
+This package is tested using Weka-3-9-2, Apache Commons Math 3.6.1 and Apache Common Lang 3.3.7. The respective jars can be obtained from the following hyperlinks:
+
 https://www.cs.waikato.ac.nz/ml/weka/downloading.html
 
 http://commons.apache.org/proper/commons-math/download_math.cgi
