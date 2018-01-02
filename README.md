@@ -1,4 +1,4 @@
-About: This Java package is to perform cluster center initialization (CCIA) for K-means algorithms. The implementation is based on the following paper - 
+This Java package performs cluster center initialization (CCIA) for K-means algorithms. The implementation is based on the following paper - 
 
 Cluster Center Initialization Algorithm for K-mean Clustering, Shehroz S. Khan and Amir Ahmad, Pattern Recognition Letters, Volume 25, No. 11, pages 1293-1302, 2004 
 
@@ -6,6 +6,8 @@ Online available at - https://pdfs.semanticscholar.org/0288/181f90c5f85ba219ebc4
 
 Author: Shehroz S. Khan
 Affiliation: University of Toronto, Canada
+
+*About*: The program generates fixed cluster centers that are written to a separate file. These centers are then used by K-means clustering and the data object membership is written in another file. 
 
 This distribution contains two java files:
 
@@ -19,7 +21,9 @@ There are three things that needs to be set before executing the initKmeans.java
 
 	String targetDir = "//path//to//directory//for//data//"; //Directory Name
 
-String inputFile =  targetDir+"iris.arff"; // Data file name
+	String inputFile =  targetDir+"iris.arff"; // Data file name
+	
+	The output files for initial centers and data object memberships are written with subscript "-centers.csv" and "-membership.csv" to the input file name.
 			
 - The number of clusters in the data. It can be done by altering this line 
 
@@ -45,6 +49,30 @@ https://www.cs.waikato.ac.nz/ml/weka/downloading.html
 http://commons.apache.org/proper/commons-math/download_math.cgi
 
 http://commons.apache.org/proper/commons-lang/download_lang.cgi
+
+Citation
+---------
+If you use this program in your research and publish a paper, then please use the following citation
+
+@article{khan2004cluster,
+  
+  title={Cluster center initialization algorithm for K-means clustering},
+  
+  author={Khan, Shehroz S and Ahmad, Amir},
+  
+  journal={Pattern recognition letters},
+  
+  volume={25},
+  
+  number={11},
+  
+  pages={1293--1302},
+  
+  year={2004},
+  
+  publisher={Elsevier}
+
+}
 
 		
 # ccia
