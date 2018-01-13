@@ -2,7 +2,7 @@ This Java package performs cluster center initialization (CCIA) for K-means algo
 
 Cluster Center Initialization Algorithm for K-mean Clustering, Shehroz S. Khan and Amir Ahmad, Pattern Recognition Letters, Volume 25, No. 11, pages 1293-1302, 2004 
 
-Online available at - https://pdfs.semanticscholar.org/0288/181f90c5f85ba219ebc4beb7c759fd052408.pdf
+The paper is available at - https://pdfs.semanticscholar.org/0288/181f90c5f85ba219ebc4beb7c759fd052408.pdf
 
 Author: Shehroz S. Khan
 
@@ -12,7 +12,7 @@ Affiliation: University of Toronto, Canada
 
 This distribution contains two java files:
 
-1. KmeansClustering.java -- This is the main class file to generate initial modes.
+1. KmeansClustering.java -- This is the main class file to generate initial cluster centers.
 
 2. initKmeans.java -- This is the test file that uses KmeansClustering.java to generate initial modes and perform K-means clustering afterwards.
 
@@ -39,6 +39,7 @@ There are three things that needs to be set before executing the initKmeans.java
 	//For practical purposes a value of 1 is good. Increasing this value to large number will result in exception.
 	
 If eclipse is not used then the following line can be removed from the top
+
 package initKmean;
 
 Dependencies
