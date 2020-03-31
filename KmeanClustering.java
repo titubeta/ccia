@@ -206,7 +206,7 @@ class KmeanClustering {
 		double [] temp = new double [data.numAttributes()];
 		for (int i=0;i<B.length;i++) {
 			for(int j=0;j<data.numAttributes();j++) {
-				temp[j]=initCenters[B[i]][j]/B.length;
+				temp[j]+=initCenters[B[i]][j]/B.length;
 			}
 		}
 		centers[L]=temp;
